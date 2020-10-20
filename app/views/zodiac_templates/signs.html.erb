@@ -1,0 +1,14 @@
+<h1>
+<%= @this_zodiac.capitalize %>
+</h1>
+
+<%= @horoscope %>
+
+<ul>
+  <% @zodiac_numbers.each do |number| %>
+    <li>
+      <%= number %>
+    </li>
+  <% end %>
+</ul>
+
